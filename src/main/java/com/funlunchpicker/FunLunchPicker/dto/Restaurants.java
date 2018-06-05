@@ -1,5 +1,8 @@
 package com.funlunchpicker.FunLunchPicker.dto;
 
+import javax.persistence.Entity;
+
+@Entity
 public class Restaurants {
     public String name;
     public String address;
